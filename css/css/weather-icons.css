@@ -1,0 +1,31 @@
+/* ============================================================
+   Weather Icon Styles – using Font Awesome + custom classes
+   ============================================================ */
+
+.wi-01d::before { content: "\f185"; }  /* sun */
+.wi-01n::before { content: "\f186"; }  /* moon */
+.wi-02d::before { content: "\f0c2"; }  /* cloud-sun */
+.wi-02n::before { content: "\f0c3"; }  /* cloud-moon */
+.wi-03d::before,
+.wi-03n::before { content: "\f0c2"; }  /* cloud */
+.wi-04d::before,
+.wi-04n::before { content: "\f0c2"; }  /* cloud */
+.wi-09d::before,
+.wi-09n::before { content: "\f043"; }  /* cloud-rain */
+.wi-10d::before,
+.wi-10n::before { content: "\f043"; }  /* cloud-rain */
+.wi-11d::before,
+.wi-11n::before { content: "\f0e7"; }  /* bolt */
+.wi-13d::before,
+.wi-13n::before { content: "\f2dc"; }  /* snowflake */
+.wi-50d::before,
+.wi-50n::before { content: "\f0f6"; }  /* smog */
+
+/* Generic fallback */
+.weather-icon {
+    display: inline-block;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-style: normal;
+    font-size: inherit;
+}
