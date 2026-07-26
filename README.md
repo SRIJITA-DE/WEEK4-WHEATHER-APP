@@ -75,7 +75,6 @@ All parameters are configured in `config.js`.
 
 **Srijita De**  
 B.Tech Computer Science & Technology (3rd Year)  
-Email: contact.srijita@gmail.com
 
 ## License
 
